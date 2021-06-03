@@ -1,0 +1,5 @@
+        List<Movies> movies = List.of(                                  // Declaring as var movies = List.of also gives the same info of the object
+                new Movies("a", 10),                                    // being type List<E>
+                new Movies("b", 15),
+                new Movies("c", 20)
+        );
